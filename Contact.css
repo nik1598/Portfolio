@@ -1,0 +1,48 @@
+﻿.container-smd {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 325px 0px 325px 0px;
+}
+
+.fab {
+    padding: 15px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 50%;
+}
+.fas {
+    padding: 15px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 50%;
+}
+.fab:hover {
+    opacity: 0.2;
+}
+.fas:hover {
+    opacity: 0.2;
+}
+.fa-linkedin-in {
+    background: #007bb5;
+    color: white;
+}
+.fa-stack-overflow {
+    background:#EF8236;
+    color: white;
+}
+.fa-github {
+    background:#211F1F;
+    color: white;
+}
+.fa-envelope {
+    background: #DD4B39;
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .container-smd {
+        padding: 300px 150px 300px 150px;
+        font-size: 1.5em;
+    }
+}
